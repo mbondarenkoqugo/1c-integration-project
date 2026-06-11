@@ -1,0 +1,379 @@
+{
+  "version": "1.0",
+  "protocolVersion": "1.0",
+  "sourceVersion": "main",
+  "activeTools": [
+    "opencode"
+  ],
+  "canonicalRulesDir": ".opencode/rules",
+  "managedFiles": [
+    {
+      "path": "AGENTS.md",
+      "source": "/tmp/1c-rules/AGENTS.md",
+      "template": false
+    },
+    {
+      "path": "USER-RULES.md",
+      "source": "/tmp/1c-rules/USER-RULES.md",
+      "template": false
+    },
+    {
+      "path": "memory.md",
+      "source": "/tmp/1c-rules/memory.md",
+      "template": false
+    },
+    {
+      "path": ".dev.env",
+      "source": "template",
+      "template": true
+    },
+    {
+      "path": ".opencode/rules/getconfigfiles.md",
+      "source": "/tmp/1c-rules/content/rules/getconfigfiles.md"
+    },
+    {
+      "path": ".opencode/rules/coding-standards.md",
+      "source": "/tmp/1c-rules/content/rules/coding-standards.md"
+    },
+    {
+      "path": ".opencode/rules/verification-checklist.md",
+      "source": "/tmp/1c-rules/content/rules/verification-checklist.md"
+    },
+    {
+      "path": ".opencode/rules/dcs-design.md",
+      "source": "/tmp/1c-rules/content/rules/dcs-design.md"
+    },
+    {
+      "path": ".opencode/rules/tooling-playbooks.md",
+      "source": "/tmp/1c-rules/content/rules/tooling-playbooks.md"
+    },
+    {
+      "path": ".opencode/rules/forms.md",
+      "source": "/tmp/1c-rules/content/rules/forms.md"
+    },
+    {
+      "path": ".opencode/rules/registers-design.md",
+      "source": "/tmp/1c-rules/content/rules/registers-design.md"
+    },
+    {
+      "path": ".opencode/rules/dev-standards-forms.md",
+      "source": "/tmp/1c-rules/content/rules/dev-standards-forms.md"
+    },
+    {
+      "path": ".opencode/rules/systematic-debugging.md",
+      "source": "/tmp/1c-rules/content/rules/systematic-debugging.md"
+    },
+    {
+      "path": ".opencode/rules/forms-add.md",
+      "source": "/tmp/1c-rules/content/rules/forms-add.md"
+    },
+    {
+      "path": ".opencode/rules/locks-and-transactions.md",
+      "source": "/tmp/1c-rules/content/rules/locks-and-transactions.md"
+    },
+    {
+      "path": ".opencode/rules/subagent-pipeline.md",
+      "source": "/tmp/1c-rules/content/rules/subagent-pipeline.md"
+    },
+    {
+      "path": ".opencode/rules/extension-patterns.md",
+      "source": "/tmp/1c-rules/content/rules/extension-patterns.md"
+    },
+    {
+      "path": ".opencode/rules/dev-standards-core.md",
+      "source": "/tmp/1c-rules/content/rules/dev-standards-core.md"
+    },
+    {
+      "path": ".opencode/rules/metadata-xml-workarounds.md",
+      "source": "/tmp/1c-rules/content/rules/metadata-xml-workarounds.md"
+    },
+    {
+      "path": ".opencode/rules/logging-strategy.md",
+      "source": "/tmp/1c-rules/content/rules/logging-strategy.md"
+    },
+    {
+      "path": ".opencode/rules/anti-patterns.md",
+      "source": "/tmp/1c-rules/content/rules/anti-patterns.md"
+    },
+    {
+      "path": ".opencode/rules/forms-events-add.md",
+      "source": "/tmp/1c-rules/content/rules/forms-events-add.md"
+    },
+    {
+      "path": ".opencode/rules/platform-solutions.md",
+      "source": "/tmp/1c-rules/content/rules/platform-solutions.md"
+    },
+    {
+      "path": ".opencode/rules/async-methods.md",
+      "source": "/tmp/1c-rules/content/rules/async-methods.md"
+    },
+    {
+      "path": ".opencode/rules/form-module.md",
+      "source": "/tmp/1c-rules/content/rules/form-module.md"
+    },
+    {
+      "path": ".opencode/rules/module-structure.md",
+      "source": "/tmp/1c-rules/content/rules/module-structure.md"
+    },
+    {
+      "path": ".opencode/rules/dev-standards-architecture.md",
+      "source": "/tmp/1c-rules/content/rules/dev-standards-architecture.md"
+    },
+    {
+      "path": ".opencode/rules/refactor-add.md",
+      "source": "/tmp/1c-rules/content/rules/refactor-add.md"
+    },
+    {
+      "path": ".opencode/rules/mcp-first-search.md",
+      "source": "/tmp/1c-rules/content/rules/mcp-first-search.md"
+    },
+    {
+      "path": ".opencode/rules/form-reserved-names.md",
+      "source": "/tmp/1c-rules/content/rules/form-reserved-names.md"
+    },
+    {
+      "path": ".opencode/rules/sdd-integrations.md",
+      "source": "/tmp/1c-rules/content/rules/sdd-integrations.md"
+    },
+    {
+      "path": ".opencode/rules/subagents.md",
+      "source": "/tmp/1c-rules/content/rules/subagents.md"
+    },
+    {
+      "path": ".opencode/rules/integrations-add.md",
+      "source": "/tmp/1c-rules/content/rules/integrations-add.md"
+    },
+    {
+      "path": ".opencode/agent/metadata-manager.md",
+      "source": "/tmp/1c-rules/content/agents/metadata-manager.md"
+    },
+    {
+      "path": ".opencode/agent/analytic.md",
+      "source": "/tmp/1c-rules/content/agents/analytic.md"
+    },
+    {
+      "path": ".opencode/agent/arch-reviewer.md",
+      "source": "/tmp/1c-rules/content/agents/arch-reviewer.md"
+    },
+    {
+      "path": ".opencode/agent/architect.md",
+      "source": "/tmp/1c-rules/content/agents/architect.md"
+    },
+    {
+      "path": ".opencode/agent/developer.md",
+      "source": "/tmp/1c-rules/content/agents/developer.md"
+    },
+    {
+      "path": ".opencode/agent/planner.md",
+      "source": "/tmp/1c-rules/content/agents/planner.md"
+    },
+    {
+      "path": ".opencode/agent/error-fixer.md",
+      "source": "/tmp/1c-rules/content/agents/error-fixer.md"
+    },
+    {
+      "path": ".opencode/agent/doc-writer.md",
+      "source": "/tmp/1c-rules/content/agents/doc-writer.md"
+    },
+    {
+      "path": ".opencode/agent/explorer.md",
+      "source": "/tmp/1c-rules/content/agents/explorer.md"
+    },
+    {
+      "path": ".opencode/agent/refactoring.md",
+      "source": "/tmp/1c-rules/content/agents/refactoring.md"
+    },
+    {
+      "path": ".opencode/agent/performance-optimizer.md",
+      "source": "/tmp/1c-rules/content/agents/performance-optimizer.md"
+    },
+    {
+      "path": ".opencode/agent/code-reviewer.md",
+      "source": "/tmp/1c-rules/content/agents/code-reviewer.md"
+    },
+    {
+      "path": ".opencode/agent/tester.md",
+      "source": "/tmp/1c-rules/content/agents/tester.md"
+    },
+    {
+      "path": ".opencode/command/getconfigfiles.md",
+      "source": "/tmp/1c-rules/content/commands/getconfigfiles.md"
+    },
+    {
+      "path": ".opencode/command/loadfrom1cbase.md",
+      "source": "/tmp/1c-rules/content/commands/loadfrom1cbase.md"
+    },
+    {
+      "path": ".opencode/command/updaterules.md",
+      "source": "/tmp/1c-rules/content/commands/updaterules.md"
+    },
+    {
+      "path": ".opencode/command/installmcp.md",
+      "source": "/tmp/1c-rules/content/commands/installmcp.md"
+    },
+    {
+      "path": ".opencode/command/opsx-archive.md",
+      "source": "/tmp/1c-rules/content/commands/opsx-archive.md"
+    },
+    {
+      "path": ".opencode/command/updatemcp.md",
+      "source": "/tmp/1c-rules/content/commands/updatemcp.md"
+    },
+    {
+      "path": ".opencode/command/checkmcp.md",
+      "source": "/tmp/1c-rules/content/commands/checkmcp.md"
+    },
+    {
+      "path": ".opencode/command/opsx-explore.md",
+      "source": "/tmp/1c-rules/content/commands/opsx-explore.md"
+    },
+    {
+      "path": ".opencode/command/doctor.md",
+      "source": "/tmp/1c-rules/content/commands/doctor.md"
+    },
+    {
+      "path": ".opencode/command/opsx-propose.md",
+      "source": "/tmp/1c-rules/content/commands/opsx-propose.md"
+    },
+    {
+      "path": ".opencode/command/opsx-apply.md",
+      "source": "/tmp/1c-rules/content/commands/opsx-apply.md"
+    },
+    {
+      "path": ".opencode/command/deploy-and-test.md",
+      "source": "/tmp/1c-rules/content/commands/deploy-and-test.md"
+    },
+    {
+      "path": ".opencode/command/update1cbase.md",
+      "source": "/tmp/1c-rules/content/commands/update1cbase.md"
+    },
+    {
+      "path": ".claude/skills/handoff",
+      "source": "/tmp/1c-rules/content/skills/handoff",
+      "mode": "verbatim"
+    },
+    {
+      "path": ".claude/skills/md-to-docx",
+      "source": "/tmp/1c-rules/content/skills/md-to-docx",
+      "mode": "verbatim"
+    },
+    {
+      "path": ".claude/skills/mermaid-diagrams",
+      "source": "/tmp/1c-rules/content/skills/mermaid-diagrams",
+      "mode": "verbatim"
+    },
+    {
+      "path": ".claude/skills/powershell-windows",
+      "source": "/tmp/1c-rules/content/skills/powershell-windows",
+      "mode": "verbatim"
+    },
+    {
+      "path": ".claude/skills/caveman",
+      "source": "/tmp/1c-rules/content/skills/caveman",
+      "mode": "verbatim"
+    },
+    {
+      "path": ".claude/skills/transcribe",
+      "source": "/tmp/1c-rules/content/skills/transcribe",
+      "mode": "verbatim"
+    },
+    {
+      "path": ".claude/skills/img-grid-analysis",
+      "source": "/tmp/1c-rules/content/skills/img-grid-analysis",
+      "mode": "verbatim"
+    },
+    {
+      "path": ".claude/skills/mcp-1c-tools",
+      "source": "/tmp/1c-rules/content/skills/mcp-1c-tools",
+      "mode": "verbatim"
+    },
+    {
+      "path": ".claude/skills/1c-metadata-manage",
+      "source": "/tmp/1c-rules/content/skills/1c-metadata-manage",
+      "mode": "verbatim"
+    },
+    {
+      "path": ".claude/skills/prompt-enhancer",
+      "source": "/tmp/1c-rules/content/skills/prompt-enhancer",
+      "mode": "verbatim"
+    },
+    {
+      "path": "opencode.json",
+      "source": "generated from /tmp/1c-rules/content/mcp-servers.json",
+      "template": false
+    },
+    {
+      "path": "openspec/README.md",
+      "source": "/tmp/1c-rules/openspec/openspec/README.md",
+      "template": false
+    },
+    {
+      "path": "openspec/config.yaml",
+      "source": "/tmp/1c-rules/openspec/openspec/config.yaml",
+      "template": false
+    },
+    {
+      "path": "openspec/project.md",
+      "source": "/tmp/1c-rules/openspec/openspec/project.md",
+      "template": false
+    },
+    {
+      "path": "openspec/changes/README.md",
+      "source": "/tmp/1c-rules/openspec/openspec/changes/README.md",
+      "template": false
+    },
+    {
+      "path": "openspec/specs/README.md",
+      "source": "/tmp/1c-rules/openspec/openspec/specs/README.md",
+      "template": false
+    },
+    {
+      "path": ".opencode/skills/openspec-propose/SKILL.md",
+      "source": "/tmp/1c-rules/content/openspec-bundle/opencode/.opencode/skills/openspec-propose/SKILL.md",
+      "template": false
+    },
+    {
+      "path": ".opencode/skills/openspec-explore/SKILL.md",
+      "source": "/tmp/1c-rules/content/openspec-bundle/opencode/.opencode/skills/openspec-explore/SKILL.md",
+      "template": false
+    },
+    {
+      "path": ".opencode/skills/openspec-archive-change/SKILL.md",
+      "source": "/tmp/1c-rules/content/openspec-bundle/opencode/.opencode/skills/openspec-archive-change/SKILL.md",
+      "template": false
+    },
+    {
+      "path": ".opencode/skills/openspec-apply-change/SKILL.md",
+      "source": "/tmp/1c-rules/content/openspec-bundle/opencode/.opencode/skills/openspec-apply-change/SKILL.md",
+      "template": false
+    },
+    {
+      "path": ".opencode/command/opsx-propose.md",
+      "source": "/tmp/1c-rules/content/openspec-bundle/opencode/.opencode/command/opsx-propose.md",
+      "template": false
+    },
+    {
+      "path": ".opencode/command/opsx-explore.md",
+      "source": "/tmp/1c-rules/content/openspec-bundle/opencode/.opencode/command/opsx-explore.md",
+      "template": false
+    },
+    {
+      "path": ".opencode/command/opsx-archive.md",
+      "source": "/tmp/1c-rules/content/openspec-bundle/opencode/.opencode/command/opsx-archive.md",
+      "template": false
+    },
+    {
+      "path": ".opencode/command/opsx-apply.md",
+      "source": "/tmp/1c-rules/content/openspec-bundle/opencode/.opencode/command/opsx-apply.md",
+      "template": false
+    }
+  ],
+  "foreignFiles": [],
+  "integrations": {
+    "openspec": {
+      "enabled": true,
+      "artifactsBundleVersion": "unknown",
+      "bundleSkipped": false
+    }
+  }
+}
